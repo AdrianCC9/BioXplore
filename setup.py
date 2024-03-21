@@ -11,12 +11,12 @@ setup(
     url='https://github.com/yourusername/BioXplore',
     packages=find_packages(),
     install_requires=[
-        'torch>=1.7.1',
-        'pandas>=1.2.0',
-        'numpy>=1.19.5',
-        'scikit-learn>=0.24.0',
-        'biopython>=1.78',
-        'flask>=1.1.2',
+        'torch',
+        'pandas',
+        'numpy',
+        'scikit-learn',
+        'biopython',
+        'flask',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
